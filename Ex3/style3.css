@@ -1,0 +1,57 @@
+body {
+    background-image: url('bodyimg.jpg');
+}
+
+h1 {
+    color: red;
+    text-shadow: 5px 2px #333;
+    font-size: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.img {
+    display: flex;
+}
+img{
+    border-radius: 10px ;
+    margin: 10px;
+}
+
+.text {
+    margin-top: 50px ;
+    background-color: lightgray;
+    opacity: 100%;
+    max-width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:20px;
+}
+
+.text > a {
+    margin-left: 70%;
+    color: red;
+    text-decoration: none;
+}
+
+
+.lien  {
+    margin: 50px;
+    padding-left: 200px;
+}
+.lien  a{
+    color: red;
+    text-decoration: none;
+}
+.text_lien {
+    display: flex;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+footer > p {
+    padding: 20px;
+    margin-left: 30%;
+}
