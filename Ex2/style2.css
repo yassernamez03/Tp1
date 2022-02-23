@@ -1,0 +1,18 @@
+div > div {
+    background-color:blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center; 
+}
+div > h1 {
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
