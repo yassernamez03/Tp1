@@ -1,0 +1,140 @@
+.head_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 100px 100px 0 0;
+    transform: rotateZ(0);
+    transition: width 1s , background-color 1s , transform 2s;
+}
+.head:hover{
+    width:200px;  
+    transform: rotateZ(360deg);
+    background-color: red;
+}
+.head > .eye1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-left: 20%;
+    transform: rotate(0deg);
+    transition: width 2s, background-color 2s , transform 2s ;
+}
+
+.head > .eye2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-left: 70%;
+    transform: rotate(0deg);
+    transition: width 2s, background-color 2s , transform 2s ;
+}
+.head > .eye2:hover{
+    transform: rotate(109deg);
+    width: 0px;
+    background-color: black;
+}
+.head >.eye1:hover{
+    transform: rotate(-109deg);
+    width: 0px;
+    background-color: black;
+}
+.body_body{
+    display: flex;
+}
+
+.hand1 {
+    width: 50px;
+    height: 120px;
+    border-radius: 999px;
+    background-color: blue;
+    margin: 10px;
+    transform: rotate(0deg);
+    transition: width 2s, background-color 2s,transform 2s ;
+
+}
+
+.big {
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: blue;
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;}
+.hand2 {
+    width: 50px;
+    height: 120px;
+    border-radius: 999px;
+    background-color: blue;
+    margin: 10px;
+    transform: rotate(0deg);
+    transition:background-color 2s,transform 2s ;
+}
+.hand1:hover{
+    transform: rotate(60deg);
+    background-color: white;
+}   
+.hand2:hover{
+    transform: rotate(-60deg);
+    background-color: white; 
+} 
+.foot1 {
+    width: 50px;
+    height: 120px;
+    border-radius: 0 0 100px 100px;
+    background-color: blue;
+    margin-right: 10px;
+    transition: height 2s , background-color 3s , transfrom 2s;
+}
+.foot2 {
+    top: -10px;
+    width: 50px;
+    height: 120px;
+    border-radius: 999px;
+    border-radius: 0 0 100px 100px;
+    background-color: blue;
+    transition: height 2s , background-color 3s , transfrom 2s;
+    margin-left: 10px;
+    
+}
+.foot1:hover,.foot2:hover{
+    height: 20px;
+    background-color:blue;
+}
+footer {
+    position: fixed;
+    top: 90%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+footer > p {
+    padding: 1%;
+    padding-left: 30%;
+}
